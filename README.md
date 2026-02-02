@@ -15,7 +15,8 @@ A full‑stack **CRUD (Create, Read, Update, Delete)** web application built usi
 ### Frontend
 
 * React.js
-* Axios / Fetch API
+* Axios
+* Zustand for state management
 * CSS / Tailwind / DaisyUI
 
 ### Backend
