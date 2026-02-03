@@ -3,7 +3,9 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 //base url will be dynamic depending on the environment.
-const base_url = import.meta.env.MODE === "development" ? "http://localhost:5200":""
+// const base_url = import.meta.env.MODE === "development" ? "http://localhost:5200":""
+const base_url = import.meta.env.VITE_API_BASE_URL;
+
 
 export const useProductStore = create((set, get) => ({
   products: [],
