@@ -15,7 +15,6 @@ app.use(express.json())
 app.use(cors(
     {
         origin:[
-            'https://pern-crud-project.vercel.app',
             'https://pern-crud-project.onrender.com'
         ],
         methods: ["GET", "POST", "PUT", "DELETE"],
